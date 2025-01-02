@@ -9,7 +9,7 @@ class Stack1
     }
     void push(int item) 
     {
-        if (top > stck.length - 1) 
+        if (top >= stck.length - 1) 
         {
             System.out.println("Stack is full");
         } 
